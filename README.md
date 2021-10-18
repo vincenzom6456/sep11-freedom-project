@@ -1,11 +1,11 @@
 # SEP11 Freedom Project
-by X
+by Vincenzo Monterosso
 
 ## Context
-The "Freedom Project" for SEP11 is all about X. The purpose of this blog is to X.
+The "Freedom Project" for SEP11 is all about creating a program using javascript to solve a real world problem. The purpose of this blog is to track my progress towards the completion of this progress, this includes the thinking, the challenges and the solutions.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For my project, I am making an organization app. This blog will walk through my process of independently studying Firebase in order to make an organization app.
 
 ## Links
 
