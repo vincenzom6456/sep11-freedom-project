@@ -3,7 +3,7 @@
 
 ### Freedom Project decision
 
-At this point in the project stage it would be good to lock ing what tool we will be using for the freedom project.
+At this point in the project stage it would be good to lock in what tool we will be using for the freedom project.
  We have already done 
  
  * Tool research
