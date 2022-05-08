@@ -60,6 +60,22 @@ function color() {
 ```
 This function asks the user what color they would like the topbar to be and sets it accordingly via prompt. I did so for a couple of basic colors one may want to use. However, I could only use conditional based color selection as just using the color name for some reason wasn't viable for the .setBackgroundRGB() method as in the action name it clearly depicts it uses RGB only.
 
+This second snippet follows the "Set Topic" action
+
+```js
+function topic() {
+  // Browser.msgBox(SpreadsheetApp.getActiveSheet().getRange(1, 1).getValue()) // incase I ever need to look at this type of    code again for now ignore
+  var ui = SpreadsheetApp.getUi();
+  var number = ui.prompt("What column will this new topic be in?") // Prompt to recieve what column the topic text will be placed in
+  var newtop = ui.prompt('What do you want the new topic to be?') // Prompt to set the actual text
+  SpreadsheetApp.getActiveSheet().getRange(1,number.getResponseText() * 1).setValue(newtop.getResponseText()) // Actually sets the text based on its desired location and text typed in, the number.getResponseText() was multiplied by one because I wanted to make sure it was being used as a number and not a string to avoid silly errors
+  
+}
+```
+
+This gives the user of the topic column they want to change (Number) and then what they want to set the text to (String). This function is quite less lengthy as there was less to cover in terms of outcomes.
+
+## Engineering Design Process
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
